@@ -71,7 +71,7 @@ public class MapeadorDatosImpl implements MapeadorDatos{
 				boolean existeLinea = false;
 				
 				while((linea = br.readLine()) != null) { // Para recorrer las lineas del archivo
-					if(linea.equals(dato)) { // Verifica si el dato 
+					if(linea.equals(dato)) { 
 						existeLinea = true;
 						break;
 					}
